@@ -14,8 +14,8 @@ function imdb = setupScene67(datasetDir, varargin)
 % This file is part of the VLFeat library and is made available under
 % the terms of the BSD license (see the COPYING file).
 
-opts = vl_argparse(opts, varargin) ;
 opts.lite = false ;
+opts = vl_argparse(opts, varargin) ;
 
 % Download and unpack
 vl_xmkdir(datasetDir) ;
